@@ -5,3 +5,7 @@ $arr = array('green'=>'зеленый', 'red'=>'красный','blue'=>'гол�
 foreach($arr as $key => $item){
     echo $key .'<br />';
 }
+
+foreach($arr as $key => $item){
+    echo $item .'<br />';
+}
