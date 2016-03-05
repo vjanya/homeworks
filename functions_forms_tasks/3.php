@@ -6,7 +6,7 @@
 <?php
 
 if (isset($_GET['area1'])) {
-    if ($_GET['area1'] !== '') {
+    if ($_GET['area1'] != '') {
         wordsPosition($_GET['area1']);
     } else {
         echo 'Textareas is empty';

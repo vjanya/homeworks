@@ -1,7 +1,22 @@
+    <html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+
+
+    <br>
+
+    <br>
+
+
+
+    </body>
+    </html>
 <?php
-/**
- * Created by PhpStorm.
- * User: zavalini
- * Date: 29.02.16
- * Time: 16:51
- */ 
+
+
+    //ob_flush();
+
+    header("Cache-Control: no-cache");
+    echo "1111";

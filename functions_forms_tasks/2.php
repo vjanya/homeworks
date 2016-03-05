@@ -5,7 +5,7 @@
 <?php
 
 if (isset($_GET['area1'])) {
-    if ($_GET['area1'] !== '') {
+    if ($_GET['area1'] != '') {
         longestWord($_GET['area1']);
     } else {
         echo 'Textareas is empty';
